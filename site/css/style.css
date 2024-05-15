@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #AFF2BA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    width: 10%;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #BD1823;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.navbar ul  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar li  {
+float: left;
+}
+
+#section1{
+    min-height: 900px;
+    background: url('Screen8bitapperal.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#section2{
+    height: 750px;
+    background: url('image1.png') no-repeat;
+    display: inline-block;
+    width: 100%;
+}
+
+#section3{
+    height: 750px;
+    background: #72BB6D;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4{
+    height: 700px;
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    width: 100%;
+}
+
+#section5{
+    height: 700px;
+    background: #72BB6D;
+    display: inline-block;
+    width: 100%;
+}
+
+#section6{
+    height: 700px;
+    background:  #72BB6D;
+    display: inline-block;
+    width: 100%;
+}
+
+#section7{
+    height: 700px;
+    background: #6ec67d;
+    display: inline-block;
+    width: 100%;
+}
+
+.buttonG{
+    background-color: #BD1823;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 25% 0 0 40%;
+    border-radius: 2rem;
+}
+
+.buttonG:hover{
+    background-color: #d18085;
+}
+
+.apropos{
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 2% 0 0 40%;
+}
+
+.text1{
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2% 0 0 10%;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.image1{
+    max-width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.white{
+    color: #fff;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.fig1{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 20%;
+}
+
+.fig2{
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: -20%;
+}
+
+.fig3{
+    margin-left: 50%;
+    margin-right: 30%;
+    margin-top: -20%;
+}
+
+.fig4{
+    margin-left: 75%;
+    margin-right: 30%;
+    margin-top: -20%;
+}
+
+.fig5{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 20%;
+}
+
+.fig6{
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: -18%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.video1{
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 8%;
+}
+
+/*-------------------------------------------*/
+
+.contact{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border:none;
+    color: #333;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #BD1823;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 10% 0 0 40%;
+}
+
+button:hover{
+    background-color: #d18085;
+}
+
+.contact-info{
+    text-align: left;
+    color: #fff;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
